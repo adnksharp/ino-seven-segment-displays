@@ -17,6 +17,7 @@ Mostrar numeros usando el display de siete segmentos de tipo catodo comun.
 | **common** | byte | Vector que contiene los pines en el que se conecta el common si se controlan varios displays |
 | **No** y **f**| byte | Vector o variable que contiene el numero que mostrara cada display |
 | **c** e **i** | byte | Variables para el control de bucles |
+
 [![dsegments-bb.png](https://i.postimg.cc/WztpGVVW/dsegments-bb.png)](https://postimg.cc/n9btx6CB)
 
 ## Un display de 7 segmentos
