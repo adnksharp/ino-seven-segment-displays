@@ -3,6 +3,12 @@
 
 Mostrar numeros usando el display de siete segmentos de tipo catodo comun.
 
+## Hardware y software necesarios
+- Placa de desarrollo Arduino 
+- Display de 7 segmentos catodo común
+- 7 resistencias de $\displaystyle 200\Omega$ a 1 $\displaystyle K\Omega$
+- [Arduino IDE](https://www.arduino.cc/en/software) o [Arduino CLI](https://arduino.github.io/arduino-cli/0.23/installation/)
+
 ## Funcionamiento
 ### Variables
 - ```number```: Matrix que contiene el estado en el que debe estar cada LED para mostar el numero.
