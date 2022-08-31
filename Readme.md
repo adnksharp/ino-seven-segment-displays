@@ -1,6 +1,4 @@
 # Seven segment display CC
-[![dsegments-bb.png](https://i.postimg.cc/WztpGVVW/dsegments-bb.png)](https://postimg.cc/n9btx6CB)
-
 Mostrar numeros usando el display de siete segmentos de tipo catodo comun.
 
 ## Hardware y software necesarios
@@ -31,13 +29,11 @@ Dentro de una función se puede usar bucles ```for``` para poner el pin ```segme
 - ```c```: Variable correspondiente al bucle for.
 - ```i```: Variable del numero que se mostrara en el display.
 
-[![dsegment-esquem-tico.png](https://i.postimg.cc/V6fkNMVc/dsegment-esquem-tico.png)](https://postimg.cc/QBz34BD6)
+[![display.png](https://i.postimg.cc/zD9BbVnS/display.png)](https://postimg.cc/t7Ny8RvY)
 
 ##### Para el funcionamiento de varios displays, se pone el pin ```common[c]``` en el estado alto, se pone el pin ```segments[c]``` en el estado ```number[c][i]``` y se pone el pin ```common[c]``` en el estado bajo.
-
 ##### La función ```count``` se usa para cambiar el valor de ```No``` para el numero que se mostrara en cada display.
-
-[![dsegments-esquem-tico.png](https://i.postimg.cc/90Sm1kFW/dsegments-esquem-tico.png)](https://postimg.cc/SY6bxDM5)
+[![displays.png](https://i.postimg.cc/mgWKHGX5/displays.png)](https://postimg.cc/2VT0sgfQ)
 
 El valor de cada elemento del vector cambia en unidades, decenas, centenas o miles segun la posicion que corresponde a cada display.
 
